@@ -9,5 +9,7 @@
 </ul>
 
 
+![not-youtube-lighthouse](https://github.com/advp7/not-youtube/assets/74961963/5e177e83-56a1-4ebb-8593-ab3e7db35d76)
+
 
 [not-youtube_lighthouse.pdf](https://github.com/advp7/not-youtube/files/14320030/not-youtube_lighthouse.pdf)
