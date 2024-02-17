@@ -9,7 +9,7 @@ export default function VideoCard({ video }) {
           <img
             className="video-thumb h-full w-full object-cover"
             src={video?.thumb}
-            alt=""
+            alt={video?.title}
           />
           <div className="play-icon-container absolute inset-0 flex justify-center items-center opacity-0">
             <svg

@@ -154,12 +154,12 @@ export default function Player() {
           </video>
           <div className="flex flex-row justify-between">
             <div className="flex flex-col">
-              <div className="text-textPrimary font-bold text-base md:text-xl mt-4 line-clamp-2">
+              <span className="text-textPrimary font-bold text-base md:text-xl mt-4 line-clamp-2">
                 {currentVideo?.title}
-              </div>
-              <div className="text-[12px] lg:text-[10px] xl:text-[12px] font-medium mt-2 text-textSecondary flex items-center">
+              </span>
+              <span className="text-[12px] lg:text-[10px] xl:text-[12px] font-medium mt-2 text-textSecondary flex items-center">
                 {currentVideo?.subtitle}
-              </div>
+              </span>
             </div>
             <div className="mt-4 mr-2">
               <Toggle
@@ -170,12 +170,12 @@ export default function Player() {
             </div>
           </div>
           <div className="relative h-min w-full mt-4 p-3 py-6 rounded-xl bg-primary overflow-hidden">
-            <div className="text-[24px] lg:text-[20px] xl:text-[24px] pl-4 font-semibold text-textSecondary flex items-center">
+            <span className="text-[24px] lg:text-[20px] xl:text-[24px] pl-4 font-semibold text-textSecondary flex items-center">
               Description
-            </div>
-            <div className="text-[14px] lg:text-[12px] xl:text-[14px] pl-4 font-medium mt-5 text-lightWhite flex items-center">
+            </span>
+            <span className="text-[14px] lg:text-[12px] xl:text-[14px] pl-4 font-medium mt-5 text-lightWhite flex items-center">
               {currentVideo?.description}
-            </div>
+            </span>
           </div>
         </div>
         <Playlist

@@ -8,7 +8,7 @@ export default function PlaylistVideoCard({ video }) {
           <img
             className="h-full w-full object-cover"
             src={video?.thumb}
-            alt=""
+            alt={video?.title}
           />
           <svg
             xmlns="http://www.w3.org/2000/svg"

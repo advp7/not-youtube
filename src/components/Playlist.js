@@ -11,9 +11,9 @@ export default function Playlist({
 }) {
   return (
     <div className="flex flex-col py-6 px-4 overflow-y-auto lg:w-[350px] xl:w-[400px]">
-      <div className="bg-black p-2 rounded-t-xl flex justify-center items-center text-textPrimary">
+      <span className="bg-black p-2 rounded-t-xl flex justify-center items-center text-textPrimary">
         Playlist
-      </div>
+      </span>
 
       <div className="relative h-full p-4 rounded-b-xl bg-primary overflow-hidden">
         {items?.map((video, index) => {
