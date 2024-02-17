@@ -70,11 +70,6 @@ export default function Player() {
       const reqVideo = videosList.find((video) => video.id === parseInt(id));
       if (reqVideo) {
         setCurrentVideo(reqVideo);
-        videoRef.current.load();
-        videoRef.current.onloadeddata = () => {
-          videoRef.current.play();
-          setIsPlaying(true);
-        };
       } else {
         navigate(`/not-found`);
         setCurrentVideo(undefined);
@@ -129,6 +124,17 @@ export default function Player() {
       }
     };
   }, [autoplay, items, currentVideo, navigate]);
+
+  useEffect(() => {
+    if (currentVideo && videoRef.current) {
+      videoRef.current.load();
+      videoRef.current.onloadedmetadata = () => {
+        videoRef.current
+          .play()
+          .catch((error) => console.log("Play failed:", error));
+      };
+    }
+  }, [currentVideo]);
 
   return (
     <div className="flex justify-center flex-row h-[calc(100%-56px)] bg-gradientPlayer">
