@@ -10,7 +10,9 @@ export default function Header() {
       {loading && <Loader />}
       <div className="flex h-5 items-center">
         <Link to={`/`}>
-          <h1 className="text-lg text-textPrimary font-bold">!Youtube</h1>
+          <h1 className="text-lg text-textPrimary font-bold">
+            <span className="text-red-600">!</span>Youtube
+          </h1>
         </Link>
       </div>
     </div>
