@@ -25,7 +25,7 @@ export default function VideoCard({ video }) {
 
         <div className="flex flex-col ml-3 text-textPrimary mt-3 overflow-hidden">
           <span className="text-sm font-bold line-clamp-2">{video?.title}</span>
-          <span className="text-[12px] font-semibold mt-2 text-textSecondary flex items-center">
+          <span className="text-[12px] font-semibold mt-2 text-textSecondary">
             {video?.subtitle}
           </span>
         </div>

@@ -157,7 +157,7 @@ export default function Player() {
               <span className="text-textPrimary font-bold text-base md:text-xl mt-4 line-clamp-2">
                 {currentVideo?.title}
               </span>
-              <span className="text-[12px] lg:text-[10px] xl:text-[12px] font-medium mt-2 text-textSecondary flex items-center">
+              <span className="text-[12px] font-medium mt-2 text-textSecondary flex items-center">
                 {currentVideo?.subtitle}
               </span>
             </div>
@@ -170,12 +170,12 @@ export default function Player() {
             </div>
           </div>
           <div className="relative h-min w-full mt-4 p-3 py-6 rounded-xl bg-primary overflow-hidden">
-            <span className="text-[24px] lg:text-[20px] xl:text-[24px] pl-4 font-semibold text-textSecondary flex items-center">
+            <span className="text-[24px] lg:text-[20px] xl:text-[24px] pl-4 font-semibold text-textSecondary">
               Description
             </span>
-            <span className="text-[14px] lg:text-[12px] xl:text-[14px] pl-4 font-medium mt-5 text-lightWhite flex items-center">
+            <p className="text-[14px] lg:text-[12px] xl:text-[14px] pl-4 font-medium mt-5 text-lightWhite">
               {currentVideo?.description}
-            </span>
+            </p>
           </div>
         </div>
         <Playlist

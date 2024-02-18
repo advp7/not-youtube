@@ -1,11 +1,11 @@
 export default function Footer() {
   return (
     <footer className="bg-gradientHome">
-      <hr className="mb-4 border-gray-100 sm:mx-auto dark:border-gray-700 lg:mb-6" />
+      <hr className="mb-4 border-gray-700 sm:mx-auto lg:mb-6" />
       <div className="flex mt-4 justify-center sm:mt-0">
         <a
           href="https://github.com/advp7"
-          className="text-gray-500 hover:text-gray-900 dark:hover:text-textPrimary ms-5"
+          className="text-gray-500 hover:text-textPrimary ms-5"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -26,7 +26,7 @@ export default function Footer() {
         </a>
         <a
           href="https://www.linkedin.com/in/advaith-praveen/"
-          className="text-gray-500 hover:text-gray-900 dark:hover:text-textPrimary ms-5"
+          className="text-gray-500 hover:text-textPrimary ms-5"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -44,7 +44,7 @@ export default function Footer() {
         </a>
       </div>
       <div className="flex items-center justify-center">
-        <span className="text-sm text-gray-500 my-1 sm:text-center dark:text-gray-400">
+        <span className="text-sm text-gray-400 my-1 text-center">
           created by {""}
           <a
             href="https://advp7.github.io/portfolio/"

@@ -6,6 +6,7 @@ module.exports = {
       backgroundImage: {
         gradientHome: "linear-gradient(to right, #1e293b, #475569, #0f172a)",
         gradientPlayer: "linear-gradient(to right, #1e293b, #64748b, #1e293b)",
+        gradientLoader: "linear-gradient(to right, #155e75, #0891b2, #164e63)",
       },
       colors: {
         primary: "#1e293b",
